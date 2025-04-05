@@ -1,6 +1,8 @@
 # [PYTHON] RFM Analysis
 
 ## 1. Introduction
+Applying the RFM model built with Python to segment customers and recommend appropriate marketing campaigns.\
+The full Python code for this project can be found at: [View code](https://colab.research.google.com/drive/1SGRJx5Mqa6DhBUVCZ_9IAY9aNhHHdBIG#scrollTo=EmqsV049KgD-)
 ### 1.1. RFM Analysis
 ### Why RFM
 - RFM is a marketing analysis technique that stands for Recency, Frequency, and Monetary.
