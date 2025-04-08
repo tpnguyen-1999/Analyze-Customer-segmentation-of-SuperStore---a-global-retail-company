@@ -1,4 +1,4 @@
-# [PYTHON] RFM Analysis
+# [PYTHON] Analyze Customer segmentation of SuperStore - a global retail company
 
 ## 1. Introduction
 Applying the RFM model built with Python to segment customers and recommend appropriate marketing campaigns.\
