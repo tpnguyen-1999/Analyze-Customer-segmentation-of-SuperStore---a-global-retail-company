@@ -56,7 +56,7 @@ The full Python code for this project can be found at: [View code](https://colab
 |6|	About To Sleep|	331, 321, 312, 221, 213, 231, 241, 251|
 |7|	At Risk|	255, 254, 245, 244, 253, 252, 243, 242, 235, 2...|
 |8|	Cannot Lose Them|	155, 154, 144, 214,215,115, 114, 113|
-|9|	Hibernating customers	332, 322, 233, 232, 223, 222, 132, 123, 122, 2...|
+|9|	Hibernating customers|	332, 322, 233, 232, 223, 222, 132, 123, 122, 2...|
 |10|	Lost customers|	111, 112, 121, 131,141,151|
 
 ### Key Takeaways and Data Cleaning
