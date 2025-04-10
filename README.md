@@ -1,9 +1,16 @@
 # [PYTHON] Analyze Customer segmentation of SuperStore - a global retail company
 
 ## 1. Introduction
-Applying the RFM model built with Python to segment customers and recommend appropriate marketing campaigns.\
+### 1.1. Business Context
+SuperStore is a global retail company with a large customer base. For the upcoming Christmas and New Year season, the Marketing Department plans to run campaigns to show appreciation to customers who have supported the company over time, as well as to target potential customers who could become loyal.
+
+However, the Marketing Department has not yet been able to segment the customers for this year because the dataset is too large to manually process as done in previous years. Therefore, they have asked the Data Analytics Department for assistance in implementing a customer segmentation model to tailor marketing campaigns for each customer group.
+
+The Marketing Director has suggested using the RFM model, but in the past, when the company was smaller, the team could manually calculate and categorize customers using Excel. Now, with the growing volume of data, they would like the Data Department to develop a Python-based workflow to evaluate and segment customers.
+
+The goal of this project is to apply the RFM model, developed with Python, to segment customers and recommend targeted marketing campaigns.\
 The full Python code for this project can be found at: [View code](https://colab.research.google.com/drive/1SGRJx5Mqa6DhBUVCZ_9IAY9aNhHHdBIG#scrollTo=EmqsV049KgD-)
-### 1.1. RFM Analysis
+### 1.2. RFM Analysis
 ### Why RFM
 - RFM is a marketing analysis technique that stands for Recency, Frequency, and Monetary.
   - **Recency**: measures how recently a customer has made a purchase.
@@ -17,12 +24,6 @@ The full Python code for this project can be found at: [View code](https://colab
 
 ### Reference
 - [RFM Analysis For Successful Customer Segmentation](https://www.putler.com/rfm-analysis)
-### 1.2. Business context
-SuperStore is a global retail company with a large customer base. For the upcoming Christmas and New Year season, the Marketing Department plans to run campaigns to show appreciation to customers who have supported the company over time, as well as to target potential customers who could become loyal.
-
-However, the Marketing Department has not yet been able to segment the customers for this year because the dataset is too large to manually process as done in previous years. Therefore, they have asked the Data Analytics Department for assistance in implementing a customer segmentation model to tailor marketing campaigns for each customer group.
-
-The Marketing Director has suggested using the RFM model, but in the past, when the company was smaller, the team could manually calculate and categorize customers using Excel. Now, with the growing volume of data, they would like the Data Department to develop a Python-based workflow to evaluate and segment customers.
 
 ## 2. Data Visualization with Python
 - **Customer Profile by RFM Model**
