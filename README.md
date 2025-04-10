@@ -25,7 +25,8 @@ The full Python code for this project can be found at: [View code](https://colab
 ### Reference
 - [RFM Analysis For Successful Customer Segmentation](https://www.putler.com/rfm-analysis)
 
-## 2. Data Visualization with Python
+## 2. Data Understanding & EDA
+## 3. Data Visualization with Python
 - **Customer Profile by RFM Model**
 
 ![Image](https://github.com/user-attachments/assets/8897d439-c0e1-4b69-8171-540316ba0786)
