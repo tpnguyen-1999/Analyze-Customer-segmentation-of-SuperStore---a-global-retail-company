@@ -71,7 +71,22 @@ The full Python code for this project can be found at: [View code](https://colab
 - Remove duplicates
 
 ### Adding RFM values
+For each customer, the RFM scores are assigned to assess their engagement.
+- **Recency (R)**: The 'Recency' values are divided into 5 equal groups, with labels ranging from 1 to 5. Here, 1 represents customers who made a purchase the most recently, and 5 represents the least recently
+- **Frequency (F)**: The 'Frequency' values are divided into 5 equal groups, with labels from 1 to 5. A score of 1 represents customers with the highest frequency of purchases, while 5 indicates customers with the lowest frequency.
+- **Monetary (M)**: The 'Monetary' values are divided into 5 equal groups, also labeled from 1 to 5. A score of 1 represents the highest-spending customers, and 5 represents those with the lowest spending.
+  
+Finally, the three individual scores (Recency, Frequency, and Monetary) are combined into a single RFM score by concatenating the respective scores for each customer.
 
+After calculating the RFM scores, they are merged with the "Segmentation" table to assign each customer to a specific segment based on their engagement and value.
+
+|   |CustomerID|	Recency|	Frequency|	Monetary| R|	F|	M|	RFM|	Segment|
+|---|----------|---------|-----------|----------|--|---|----|-----|---------|
+|0|	12346.0|	325|	1|	77183.60|	5|	1|	5|	515|	Promising|
+|1|	12347.0|	2|	182|	4310.00| 1|	5|	5|	155|	Cannot Lose Them|
+|2|	12348.0|	75|	27|	1595.64| 4|	2|	4|	424|	Promising|
+|3|	12349.0|	18|	73|	1757.55| 2|	4|	4|	244|	At Risk|
+|4|	12350.0|	310|	17|	334.40| 5|	2|	2|	522| Promising|
 
 ## 3. Data Visualization with Python
 ### 3.1. Customer Profile by RFM Model
