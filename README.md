@@ -72,7 +72,7 @@ The full Python code for this project can be found at: [View code](https://colab
 
 ### Adding RFM values
 For each customer, the RFM scores are assigned to assess their engagement.
-- **Recency (R)**: The 'Recency' values are divided into 5 equal groups, with labels ranging from 1 to 5. Here, 1 represents customers who made a purchase the most recently, and 5 represents the least recently
+- **Recency (R)**: The 'Recency' values are divided into 5 equal groups, with labels ranging from 1 to 5. Here, 1 represents customers who made a purchase the least recently, and 5 represents the most recently
 - **Frequency (F)**: The 'Frequency' values are divided into 5 equal groups, with labels from 1 to 5. A score of 1 represents customers with the lowest frequency of purchases, while 5 indicates customers with the highest frequency.
 - **Monetary (M)**: The 'Monetary' values are divided into 5 equal groups, also labeled from 1 to 5. A score of 1 represents the lowest-spending customers, and 5 represents those with the highest spending.
   
